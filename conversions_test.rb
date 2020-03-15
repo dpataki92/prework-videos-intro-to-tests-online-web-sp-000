@@ -15,6 +15,5 @@ describe 'meal_choice' do
     expect(meal_choice('soup', 'steak')).to eq('Your choice for the dinner is soup and steak.')
   end
 end
-  
-end
 
+end
