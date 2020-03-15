@@ -8,4 +8,13 @@ describe 'conversations' do
       expect(ounces_to_grams).to eq(28.3495)
     end
   end
+
+describe 'meal_choice' do
+  it 'returns your choice for the dinner' do
+    answer = meal_choice(arg1, arg2)
+    expect(meal_choice('soup', 'steak')).to eq('Your choice for the dinner is soup and steak.')
+  end
 end
+  
+end
+
